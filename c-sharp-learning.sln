@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.810.25
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-01", "c-sharp-01\c-sharp-01.csproj", "{B91D4C5E-D33D-45A5-B860-3080C1DE37CC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp-learning", "c-sharp-01\c-sharp-learning.csproj", "{B91D4C5E-D33D-45A5-B860-3080C1DE37CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test_1.UnitTests", "Test_1.UnitTests\Test_1.UnitTests.csproj", "{53646C75-8199-4649-87DD-BB5A58D6B44C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{B91D4C5E-D33D-45A5-B860-3080C1DE37CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B91D4C5E-D33D-45A5-B860-3080C1DE37CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B91D4C5E-D33D-45A5-B860-3080C1DE37CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53646C75-8199-4649-87DD-BB5A58D6B44C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53646C75-8199-4649-87DD-BB5A58D6B44C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53646C75-8199-4649-87DD-BB5A58D6B44C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53646C75-8199-4649-87DD-BB5A58D6B44C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

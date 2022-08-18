@@ -1,18 +1,33 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.IO;
 
-namespace c_sharp_01
+namespace c_sharp_learning
 {
     class Program
     {
         // Entry point 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            // Console class is defined in System
-            Console.WriteLine("This is Jieqing! ");
+
+            Console.WriteLine("aaa");
 
         }
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
