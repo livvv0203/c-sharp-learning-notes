@@ -65,8 +65,8 @@ namespace c_sharp_learning
             // out
             string s = "abc";
 
-            int number;
-            var result = int.TryParse(s, out number);
+            //int number;
+            //var result = int.TryParse(s, out number);
 
 
         }
