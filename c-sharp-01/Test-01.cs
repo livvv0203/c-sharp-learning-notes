@@ -62,11 +62,16 @@ namespace c_sharp_learning
             // OR - using string literal in c-sharp
             var myFullName = string.Format("My name is {0} {1}", firstName1, lastName1);
 
-            
-            
+            // out
+            string s = "abc";
+
+            int number;
+            var result = int.TryParse(s, out number);
+
+
         }
 
-        
+
     }
 }
 
@@ -75,4 +80,3 @@ namespace c_sharp_learning
 
 
 
- 
