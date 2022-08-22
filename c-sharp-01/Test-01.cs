@@ -63,7 +63,7 @@ namespace c_sharp_learning
             var myFullName = string.Format("My name is {0} {1}", firstName1, lastName1);
 
             // out
-            string s = "abc";
+            // string s = "abc";
 
             //int number;
             //var result = int.TryParse(s, out number);
