@@ -1,8 +1,5 @@
-﻿using Microsoft.VisualBasic;
+﻿using Properties;
 using System;
-using System.Globalization;
-using System.Net.Http;
-using System.Net.Http.Headers;
 
 namespace c_sharp_learning
 {
@@ -13,24 +10,13 @@ namespace c_sharp_learning
         /// </summary>
         public static void Main(string[] args)
         {
-            runLoop();
-
-
-
+            Box box = new Box();
+            box.SetLength(6);
+            box.DisplayInfo();
+            Console.WriteLine("Box length is: " + box.GetLength());
+            
         }
 
-        public static void runLoop()
-        {
-            string userInput;
-            int counter = 0;
-            do
-            {
-                Console.WriteLine("Please input a number: ");
-                userInput = Console.ReadLine();
-                Console.WriteLine($"User input is: {userInput}, at ----{counter}----");
-                counter++;
-            } while (counter < 3);
-        }
     }
 }
 
