@@ -21,7 +21,7 @@ namespace c_sharp_learning
                 {
                     if (i == j)
                     {
-                        matrix[i, j] = 222;
+                        //  matrix[i, j] = 222;
                         Console.Write(matrix[i, j] + " ");
                     }
                     else
